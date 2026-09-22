@@ -1,0 +1,13 @@
+name: mnist-study
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch==2.14.0
+      - torchvision>=0.29.0,<0.30.0
+      - numpy>=1.26,<3.0
+      - pandas>=2.2,<4.0
+      - matplotlib>=3.8,<4.0
+      - tqdm>=4.66,<5.0
